@@ -1,0 +1,11 @@
+console.log('netflix');
+
+const func = (callback)=>{
+    console.log('func');
+    callback();
+}
+
+const bar = ()=>{
+    console.log('bar');
+}
+func(bar);
